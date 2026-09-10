@@ -44,114 +44,60 @@ AI, edge computing, and open-source innovation.
 
 ## 🚀 Featured Projects
 
-### 🔍 **Social Detective (FaceTrace)** ⭐⭐⭐⭐⭐
-**Repo:** `social-detective` | **Tech:** Python, InsightFace, Web3.py, Solidity, IPFS, Ethereum Sepolia
+<details>
+<summary><b>🔍 Social Detective (FaceTrace)</b> ⭐⭐⭐⭐⭐</summary>
 
-**Description:**
-A **production-grade forensic OSINT framework** bridging deep facial biometrics, zero-CAPTCHA visual reverse search, decentralized IPFS collective memory, and immutable Ethereum blockchain notarization.
+<br/>
 
-**Key Features:**
-- 👤 **512-d ArcFace Biometrics**: Pose-invariant, illumination-resistant facial embeddings
-- 🔍 **Multi-Engine Visual Search**: SerpAPI Google Lens → Headless Zero-CAPTCHA → Yandex cascade
-- 🌐 **Zero-CAPTCHA Breakthrough**: Bypasses Google bot challenges via backend direct submission
-- 🎬 **Deep Instagram Mining**: Reels, carousels, video covers, and carousel unpacking
-- 🔐 **Blockchain Notarization**: Immutable SHA-256 records on Ethereum Sepolia smart contract
-- 📊 **Identity Knowledge Graph**: Decentralized Web3 collective memory via IPFS + sync
-- ✅ **Tamper Detection**: Cryptographic verification (`facetrace verify`) proves authenticity
-- 🎯 **Multi-Platform Profiling**: Instagram, X/Twitter, LinkedIn harvesting & sweeping
-- 🌍 **GEOINT & Scene Analysis**: Contextual environmental & terrain feature extraction
-- 🏆 **115 Passing Unit Tests**: Comprehensive pytest coverage
+**Repo:** `social-detective` | **Tech:** Python, InsightFace, Web3.py, Solidity, IPFS
+**Description:** Production-grade forensic OSINT framework combining deep facial biometrics, zero-CAPTCHA visual reverse search, and Ethereum blockchain notarization.
+- **Key Features:** 512-d ArcFace biometrics, deep Instagram mining, tamper detection (`facetrace verify`), and Web3 knowledge graph.
+- **Why It's Strong:** World-class OSINT engineering bridging bleeding-edge ML and decentralized architecture.
+</details>
 
-**Why It's Strong:**
-- World-class forensic OSINT engineering
-- Combines bleeding-edge ML, Web3, and blockchain for forensic integrity
-- Solves real-world investigator pain points (platform paywalls, tamper detection)
-- Production-tested with comprehensive documentation & test suite
+<details>
+<summary><b>🤖 Blinky — AI Desktop Tutor & Agent</b> ⭐⭐⭐⭐⭐</summary>
 
----
+<br/>
 
-### 🤖 **Blinky — AI Desktop Tutor & Agent** ⭐⭐⭐⭐⭐
-**Repo:** `Blinky` | **Tech:** Tauri, React, TypeScript, Python, Ollama, Sarvam AI
+**Repo:** `Blinky` | **Tech:** Tauri, React, Python, Ollama, Sarvam AI
+**Description:** Offline-first, privacy-respecting AI desktop tutor providing real-time visual guidance and autonomous automation.
+- **Key Features:** Screen tutor mode via OCR/AI overlays, multilingual voice (Sarvam AI), local Ollama inference, and a React Native companion app.
+- **Why It's Strong:** Multi-platform, production-ready ML architecture solving real-world context switching. Hackathon Winner.
+</details>
 
-**Description:**
-An offline-first, privacy-respecting **AI desktop tutor** that reads your screen and guides you visually or runs autopilot computer automation. Production-grade hackathon project with full agent capabilities.
+<details>
+<summary><b>🎙️ Blinky Wake Word Engine</b> ⭐⭐⭐⭐</summary>
 
-**Key Features:**
-- 🎯 **Screen Tutor Mode**: Real-time visual guidance with OCR + AI overlays
-- 🤖 **Full Agent Mode**: Autonomous desktop automation
-- 🗣️ **Multilingual Voice**: Speech-to-text & text-to-speech using Sarvam AI (Indian accents)
-- ⚡ **Offline-First**: Local Ollama inference + optional Groq cloud API
-- 🛡️ **Privacy-Respecting**: No cloud screenshots, flicker-free overlay system
-- 📱 **Mobile Control**: React Native Expo companion app for remote control
-- 🏆 **Hackathon Winner**: Featured in multiple sponsored tracks (Base44, Sarvam AI, Expo)
+<br/>
 
-**Why It's Strong:**
-- Production-ready architecture with Tauri + Python integration
-- Solves real problems: context-switching, static documentation issues
-- Advanced ML: intent classification, OCR mapping, voice synchronization
-- Multi-platform deployment (Windows, Linux, mobile)
-
----
-
-### 🎙️ **Blinky Wake Word Engine** ⭐⭐⭐⭐
 **Repo:** `wakeword_blinky_model` | **Tech:** Python, PyTorch, ONNX, OpenWakeWord
+**Description:** Highly optimized, edge-computed acoustic classifier that triggers routines upon detecting the wake phrase "Hey Blinky".
+- **Key Features:** Lightweight custom DNN (~218 KB), edge inference via ONNX, GPU acceleration (CUDA/DirectML), and 5k+ synthetic training samples.
+- **Why It's Strong:** Demonstrates deep ML optimization and hardware acceleration expertise.
+</details>
 
-**Description:**
-An optimized, edge-computed acoustic classifier engine that triggers application routines when users speak the wake phrase **"Hey Blinky"**. Sophisticated ML project using synthetic data generation and neural networks.
+<details>
+<summary><b>🎮 Freedoom WebAssembly</b> ⭐⭐⭐⭐</summary>
 
-**Key Features:**
-- 🎯 **Custom DNN**: Deep Neural Network acoustic classifier (~218 KB)
-- ⚡ **Edge Inference**: ONNX runtime for local, fast processing (no cloud API)
-- 🔊 **Hardware Optimization**: GPU acceleration (CUDA/DirectML)
-- 🎮 **Cross-Platform**: Windows & Linux support
-- 🧠 **Synthetic Data**: 5,000+ synthetic training samples
-- 🔌 **IPC & Telemetry**: Real-time diagnostics with bi-directional control
+<br/>
 
-**Why It's Strong:**
-- Advanced ML/AI with production optimizations
-- Hardware acceleration knowledge (CUDA, DirectML)
-- Synthetic data generation expertise
-
----
-
-### 🎮 **Freedoom WebAssembly Implementation** ⭐⭐⭐⭐
 **Repo:** `freedoom_implementation` | **Tech:** JavaScript, C/C++, WebAssembly, Emscripten
+**Description:** Ported the classic Chocolate Doom game to run natively in the web browser using WebAssembly.
+- **Key Features:** Browser-native gaming without plugins, complex Emscripten compilation, and asset preloading.
+- **Why It's Strong:** Showcases advanced systems programming (C/C++) and emerging web technologies.
+</details>
 
-**Description:**
-Ported the classic **Chocolate Doom** game to run natively in the browser using WebAssembly and Emscripten. Integrated as a desktop app in the Windows 95 portfolio.
+<details>
+<summary><b>🌐 Personal Portfolio OS (me)</b> ⭐⭐⭐</summary>
 
-**Key Features:**
-- 🌐 **Browser-Native Gaming**: Full game runs in web browsers without plugins
-- 📦 **WebAssembly Build**: Compiled Chocolate Doom to WASM using Emscripten
-- 🎮 **Asset Preloading**: Virtual filesystem management for game assets (IWAD)
-- 🛠️ **Debug Documentation**: Thorough troubleshooting & build logs
-- 🔧 **Emscripten Integration**: Complex C/C++ to JavaScript compilation
+<br/>
 
-**Why It's Strong:**
-- Advanced systems programming (C/C++)
-- WebAssembly expertise (emerging technology)
-- Creative project combining gaming + web technologies
-
----
-
-### 🌐 **Personal Website (me)** ⭐⭐⭐
-**Repo:** `me` | **Tech:** React, TypeScript, JavaScript, GitHub API  
-**Live:** [SparshKhanna.xyz](https://www.sparshkhanna.xyz/)
-
-**Description:**
-A Windows 95 operating system simulation running entirely in the browser. A creative, fully static portfolio that reimagines how developer portfolios can be presented.
-
-**Key Features:**
-- 🖥️ **Full Desktop OS**: Functional Windows 95 environment in browser
-- 🪟 **Real Applications**: Multiple apps (Terminal, Projects, Resume, Guestbook, Music Player)
-- 🎮 **Native Behavior**: Draggable windows, minimize/maximize, real focus management
-- ⚙️ **GitHub as Database**: Guestbook entries persist via GitHub Issues API
-- 🔐 **100% Static**: Deploys on Vercel with zero backend/serverless functions
-
-**Why It's Strong:**
-- Unique approach to portfolio design
-- Demonstrates creative problem-solving
-- Full-stack knowledge (frontend, API, deployment)
+**Repo:** `me` | **Live:** [SparshKhanna.xyz](https://www.sparshkhanna.xyz/) | **Tech:** React, TS, GitHub API
+**Description:** A fully static Windows 95 operating system simulation running directly in the browser.
+- **Key Features:** Functional desktop apps, draggable windows, and guestbook data persistence using the GitHub Issues API.
+- **Why It's Strong:** Unique, creative full-stack engineering with zero backend dependencies.
+</details>
 
 
 
